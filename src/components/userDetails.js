@@ -26,6 +26,7 @@ export default function UserDetails() {
       })
       .catch((err) => console.log(err));
   }, []);
+
   return (
     <>
       <div>

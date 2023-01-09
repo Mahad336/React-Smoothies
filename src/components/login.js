@@ -10,7 +10,6 @@ export default function Login() {
   function handleSubmit(e) {
     e.preventDefault();
     const { email, password } = state;
-    console.log(email, password);
     fetch("http://localhost:5000/login-user", {
       method: "POST",
       crossDomain: true,
